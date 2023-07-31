@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Dynamic;
+using System.Linq;
 
 namespace InterfaceExercise
 {
@@ -101,7 +102,13 @@ namespace InterfaceExercise
                 Console.WriteLine("--------------------------------------------------");
             }
 
-
+            Console.Write("Total amount of cars: ");
+            Console.WriteLine(Car.CarCount);
+            Console.Write("Total amount of Trucks: ");
+            Console.WriteLine(Truck.TruckCount);
+            Console.Write("Total amount of SUV's: ");
+            Console.WriteLine(SUV.SUVCount);
+            
         }
     }
 }
